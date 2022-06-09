@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="/images/girl-listening-music-with-headhone-png.png">
+    <title>Oh!that5050 Music Player</title>
+    
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+<body>
+    <div class="ImageBG1">
+        <img src="images/girl-listening-music-with-headhone-png.png" alt="">
+    </div>
+    <div class="ImageBG2">
+        <img src="images/COVER-Music-removebg-preview.png" alt="">
+    </div>
+    <div class="containers">
+        <div class="topbar">
+      <i class="material-icons">expand_more</i>
+          <span><b>SONG PLAYING</b></span>
+      <i class="material-icons">more_horiz</i>
+    </div>
+        <div class="image-area">
+            <img src="" alt="">
+        </div>
+        <div class="songs-details">
+            <p class="name"></p>
+            <p class="artist"></p>
+        </div>
+        <div class="ProgressArea">
+            <div class="progress-bar">
+                <audio id="main-audio" src=""></audio>
+            </div>
+            <div class="timer">
+                <span class="current">0:00</span>
+                <span class="duration">0:00</span>
+            </div>
+    </div>
+    <div class="MusicControls">
+            <i  id="repeat-playList" class="material-icons" title="Playlist looped">repeat</i>
+            <i  id="prev" class="material-icons">skip_previous</i>
+            <div class="play-pause">
+                <i id="PlayPause" class="material-icons">play_arrow</i>
+            </div>
+            <i  id="next" class="material-icons">skip_next</i>
+            <i  id="music-list" class="material-icons">queue_music</i>
+        </div>
+        <div class="musicqueue">
+      <div class="header">
+        <div class="row">
+          <i class="list material-icons">queue_music</i>
+              <span>Music Queue</span>
+        </div>
+        <i id="close" class="material-icons">close</i>
+      </div>
+      <ul>
+                  
+      </ul>
+    </div>
+  </div>
+  <div class="d-flex flex-column justify-content-center w-100 h-100">
+
+	<div class="d-flex flex-column justify-content-center align-items-center">
+		<h1 class="fw-light text-white m-0"></h1>
+		<div class="btn-group my-5">
+			<a href="https://codepen-api-export-production.s3.us-west-2.amazonaws.com/zip/PEN/pyBNzX/1578778289271/pure-css-gradient-background-animation.zip" class="btn btn-outline-light" aria-current="page"><i class="fas fa-file-download me-2"></i></a>
+			<a href="https://codepen.io/P1N2O/full/pyBNzX" class="btn btn-outline-light"><i class="fas fa-expand ms-2"></i></a>
+		</div>
+		<a href="https://manuel.pinto.dev" class="text-decoration-none">
+			<h5 class="fw-light text-white m-0"></h5>
+		</a>
+	</div>
+</div>
+</div>
+
+<script src="js/MusicQueue.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
